@@ -1,0 +1,20 @@
+#header {
+  background-color: #f5f5f5;
+  padding: 50px 0px;
+  .header_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header_title {
+    }
+    nav {
+      ul {
+        li {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

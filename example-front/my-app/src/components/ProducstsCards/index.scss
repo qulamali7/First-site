@@ -1,0 +1,20 @@
+.products_cards {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  .products_card {
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    .card_img {
+      width: 250px;
+      height: 300px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
